@@ -12,7 +12,7 @@ a {
 }
 
 a iframe,a video,a audio {
-  display:nome;
+  display:none;
 }
 
 button {
