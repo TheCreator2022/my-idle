@@ -14,3 +14,8 @@ a {
 a iframe,a video,a audio {
   display:nome;
 }
+
+button {
+  background-color:red;
+  font-size:2.35vh;
+}
