@@ -9,9 +9,9 @@ document.getElementById("click").onclick = () => {
 
 document.getElementById("cost1").onclick = () => {
   if (dollars.gte(costs[0])) {
-    costs[0] = costs[0].mul(1.8)
     dollars = dollars.sub(costs[0])
     dps = dps.add(1)
+    costs[0] = costs[0].mul(1.8)
   }
 }
 
