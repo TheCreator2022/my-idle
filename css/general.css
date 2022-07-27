@@ -6,3 +6,11 @@ h1.title {
 body {
    font-family:Comic Sans MS;
 }
+
+a {
+ color:yellow;
+}
+
+a iframe,a video,a audio {
+  display:nome;
+}
