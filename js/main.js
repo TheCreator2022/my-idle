@@ -37,6 +37,7 @@ function Update() {
  document.getElementById("dollars").innerHTML = "You Have " + dollars + " Dollars."
  document.getElementById("costNumber1").innerText = costs[0]
  document.getElementById("costNumber2").innerText = costs[1]
+ document.getElementById("costNumber3").innerText = costs[2]
 }
 
 setInterval(Update, 100)
