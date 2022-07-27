@@ -1,7 +1,7 @@
 var dollars = new Decimal(0)
 var dps = new Decimal(0)
 var dpc = new Decimal(1)
-let costs = [new Decimal(30)]
+let costs = [new Decimal(30), new Decimal(1e3)]
 
 document.getElementById("click").onclick = () => {
   dollars = dollars.add(dpc)
@@ -15,10 +15,20 @@ document.getElementById("cost1").onclick = () => {
   }
 }
 
+document.getElementById("cost2").onclick = () => {
+  if (dollars.gte(costs[1])) {
+    dollars = dollars.sub(costs[1])
+    dps = dps.add(5)
+    costs[1] = costs[1].mul(1.8)
+  }
+}
+
+
 function Update() {
  dollars = dollars.add(dps)
  document.getElementById("dollars").innerHTML = "You Have " + dollars + " Dollars."
  document.getElementById("costNumber1").innerText = costs[0]
+ document.getElementById("costNumber2").innerText = costs[1]
 }
 
 setInterval(Update, 100)
