@@ -1,2 +1,2 @@
 # PNG
-#### a be ser so than images png filé.
+#### a be ser so than images png file.
