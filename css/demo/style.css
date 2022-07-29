@@ -1,0 +1,28 @@
+@keyframes colors {
+    10%{
+        color: aquamarine;
+    }
+    20%{
+        color: rgb(100, 185, 157);
+    }
+    30%{
+        color: rgb(25, 153, 25);
+    }
+    40%{
+        color: rgb(120, 109, 74);
+    }
+    50%{
+        color: rgb(85, 166, 139);
+    }
+    75%{
+        color: rgb(66, 56, 213);
+    }
+    100%{
+        color: rgb(84, 80, 143);
+    }
+}
+
+h2 {
+    font-family: cursive;
+    cursor: default;
+}
